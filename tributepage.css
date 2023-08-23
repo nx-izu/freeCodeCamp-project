@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Philosopher", sans-serif;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 30px 20px;
+  padding: 15px;
+  text-align: center;
+  background-color: #33333311;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img-div {
+  max-width: 1000px;
+  background-color: #86a59c48;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+.tribute-info {
+  margin: auto;
+  max-width: 550px;
+  padding-top: 30px;
+}
+
+.tribute-info h3 {
+  padding-bottom: 20px;
+}
+
+.tribute-info ul,
+.tribute-info p {
+  text-align: left;
+}
+
+.tribute-info p {
+  max-width: 600px;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: darkcyan;
+}
+
+a:hover {
+  background-color: darkcyan;
+  color: antiquewhite;
+  text-decoration: none;
+  border: 8px double antiquewhite;
+  border-radius: 5px;
+}
